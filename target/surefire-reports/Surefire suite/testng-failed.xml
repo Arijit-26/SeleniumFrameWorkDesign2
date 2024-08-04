@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="seleniumframeworkdesign.testclasses.TestClass">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- seleniumframeworkdesign.testclasses.TestClass -->
+      <class name="seleniumframeworkdesign.testclasses.TestFail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="loginUsingWrongPassword"/>
+        </methods>
+      </class> <!-- seleniumframeworkdesign.testclasses.TestFail -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

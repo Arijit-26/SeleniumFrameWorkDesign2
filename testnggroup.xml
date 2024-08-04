@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Wrong"></include>                               
+		</run>
+	</groups>
+  <test thread-count="5" name="choosing product test">                       
+    <classes>
+      <class name="seleniumframeworkdesign.testclasses.TestClass1"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Wrong credentials test">
+    <classes>
+      <class name="seleniumframeworkdesign.testclasses.WrongCredentialsLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-07T13:23:08 IST" name="Suite" finished-at="2024-07-07T13:25:44 IST" duration-ms="155650">
+    <groups>
+      <group name="Wrong">
+        <method signature="WrongCredentialsLogin.loginUsingWrongEmail()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" name="loginUsingWrongEmail" class="seleniumframeworkdesign.testclasses.WrongCredentialsLogin"/>
+        <method signature="WrongCredentialsLogin.loginUsingWrongPassword()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" name="loginUsingWrongPassword" class="seleniumframeworkdesign.testclasses.WrongCredentialsLogin"/>
+      </group> <!-- Wrong -->
+    </groups>
+    <test started-at="2024-07-07T13:23:08 IST" name="Wrong credentials test" finished-at="2024-07-07T13:25:01 IST" duration-ms="112655">
+      <class name="seleniumframeworkdesign.testclasses.WrongCredentialsLogin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:23:08 IST" name="launchBrowser" finished-at="2024-07-07T13:23:36 IST" duration-ms="28039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginUsingWrongEmail()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:23:36 IST" name="loginUsingWrongEmail" finished-at="2024-07-07T13:24:04 IST" duration-ms="27635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingWrongEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:24:04 IST" name="tearDown" finished-at="2024-07-07T13:24:30 IST" duration-ms="25701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:24:30 IST" name="launchBrowser" finished-at="2024-07-07T13:24:54 IST" duration-ms="24528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginUsingWrongPassword()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:24:54 IST" name="loginUsingWrongPassword" finished-at="2024-07-07T13:25:00 IST" duration-ms="6107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumframeworkdesign.testclasses.WrongCredentialsLogin@4007f65e]" started-at="2024-07-07T13:25:00 IST" name="tearDown" finished-at="2024-07-07T13:25:01 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumframeworkdesign.testclasses.WrongCredentialsLogin -->
+    </test> <!-- Wrong credentials test -->
+    <test started-at="2024-07-07T13:23:08 IST" name="choosing product test" finished-at="2024-07-07T13:25:44 IST" duration-ms="155650">
+      <class name="seleniumframeworkdesign.testclasses.TestClass1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:23:08 IST" name="launchBrowser" finished-at="2024-07-07T13:23:32 IST" duration-ms="24131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="shopping()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:23:32 IST" name="shopping" finished-at="2024-07-07T13:25:01 IST" duration-ms="88913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:25:01 IST" name="tearDown" finished-at="2024-07-07T13:25:04 IST" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:25:05 IST" name="launchBrowser" finished-at="2024-07-07T13:25:27 IST" duration-ms="22725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkMyOrders()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:25:27 IST" name="checkMyOrders" finished-at="2024-07-07T13:25:43 IST" depends-on-methods="seleniumframeworkdesign.testclasses.TestClass1.shopping" duration-ms="15915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumframeworkdesign.testclasses.TestClass1@4a83a74a]" started-at="2024-07-07T13:25:43 IST" name="tearDown" finished-at="2024-07-07T13:25:44 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumframeworkdesign.testclasses.TestClass1 -->
+    </test> <!-- choosing product test -->
+  </suite> <!-- Suite -->
+</testng-results>
